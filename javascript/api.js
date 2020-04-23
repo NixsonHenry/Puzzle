@@ -616,7 +616,7 @@ $( init );
 
 function init() {
     $("#img1-1-draggable").draggable({
-        snap: ".puzzle-grid-drop",
+        snap: ".puzzle-grid-drop1",
         drag: function () {
             $("#img1-1-draggable").css("transform", "scale(1)");
         },
@@ -624,7 +624,7 @@ function init() {
     });
 
     $("#img1-2-draggable").draggable({
-        snap: ".puzzle-grid-drop",
+        snap: ".puzzle-grid-drop2",
         drag: function () {
             $("#img1-2-draggable").css("transform", "scale(1)");
         },
@@ -632,7 +632,7 @@ function init() {
     });
 
     $("#img1-3-draggable").draggable({
-        snap: ".puzzle-grid-drop",
+        snap: ".puzzle-grid-drop3",
         drag: function () {
             $("#img1-3-draggable").css("transform", "scale(1)");
         },
@@ -640,7 +640,7 @@ function init() {
     });
 
     $("#img2-1-draggable").draggable({
-        snap: ".puzzle-grid-drop",
+        snap: ".puzzle-grid-drop4",
         drag: function () {
             $("#img2-1-draggable").css("transform", "scale(1)");
         },
@@ -648,7 +648,7 @@ function init() {
     });
 
     $("#img2-2-draggable").draggable({
-        snap: ".puzzle-grid-drop",
+        snap: ".puzzle-grid-drop5",
         drag: function () {
             $("#img2-2-draggable").css("transform", "scale(1)");
         },
@@ -656,7 +656,7 @@ function init() {
     });
 
     $("#img2-3-draggable").draggable({
-        snap: ".puzzle-grid-drop",
+        snap: ".puzzle-grid-drop6",
         drag: function () {
             $("#img2-3-draggable").css("transform", "scale(1)");
         },
@@ -664,7 +664,7 @@ function init() {
     });
 
     $("#img3-1-draggable").draggable({
-        snap: ".puzzle-grid-drop",
+        snap: ".puzzle-grid-drop7",
         drag: function () {
             $("#img1-1-draggable").css("transform", "scale(1)");
         },
@@ -672,7 +672,7 @@ function init() {
     });
 
     $("#img3-2-draggable").draggable({
-        snap: ".puzzle-grid-drop",
+        snap: ".puzzle-grid-drop8",
         drag: function () {
             $("#img1-1-draggable").css("transform", "scale(1)");
         },
@@ -681,7 +681,7 @@ function init() {
 
 
     $("#img3-3-draggable").draggable({
-        snap: ".puzzle-grid-drop",
+        snap: ".puzzle-grid-drop9",
         drag: function () {
             $("#img1-1-draggable").css("transform", "scale(1)");
         },

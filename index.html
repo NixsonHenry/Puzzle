@@ -2,8 +2,15 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="javascript/api.js"></script> 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+        <link rel="stylesheet" href="fontAwesome/css/all.css">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
 
 
         <script type="text/javascript" src="javascript/api.js"></script>
@@ -14,12 +21,11 @@
         <script type="text/javascript" src="javascript/bootstrap.js"></script>
         <script type="text/javascript" src="javascript/bootstrap.js.map"></script>
         <script type="text/javascript" src="javascript/bootstrap.min.js"></script>
-        <script type="text/javascript" src="javascript/bootstrap.min.js.map"></script>
+        <script type="text/javascript" src="javascript/bootstrap.min.js.map"></script> 
     </head>
 
     <body class="body">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark height bg-primary fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-dark height nav-color fixed-top">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">
                         <div class="col-md-2 mt-4">
@@ -37,42 +43,51 @@
                     </div>
                 </div>
             </nav>
-        </div>
+    
     
        <div class="container">
 
-           <div class="row ">
-            <div class="col-md-12 text-center text-light text-uppercase my-3">
-                <h4 class="title"> Drag the images below to complete the puzzle!!</h4>
-                <img src="images/puzzle-grid.png" class="grid3-1 w-25"/>
-                <img src="images/puzzle-grid.png" class="grid3-2 w-25"/>
-                <img src="images/puzzle-grid.png" class="grid3-3 w-25"/>
+           <div class="row">
+            <div class="col-md-12 text-center text-light ">
+                <p class="title text-center"> Drag each piece of image below to complete the puzzle!!</p>
+                <img src="images/puzzle-grid.png" class="puzzle-grid-drop1"/>
+                <img src="images/puzzle-grid.png" class="puzzle-grid-drop2"/>
+                <img src="images/puzzle-grid.png" class="puzzle-grid-drop3"/>
                 <br>
-                <img src="images/puzzle-grid.png" class="grid2-1 w-25"/>
-                <img src="images/puzzle-grid.png" class="grid2-2 w-25"/>
-                <img src="images/puzzle-grid.png" class="grid2-3 w-25"/>
+                <img src="images/puzzle-grid.png" class="puzzle-grid-drop4"/>
+                <img src="images/puzzle-grid.png" class="puzzle-grid-drop5"/>
+                <img src="images/puzzle-grid.png" class="puzzle-grid-drop6"/>
                 <br>
-                <img src="images/puzzle-grid.png" class="grid1-1 w-25"/>
-                <img src="images/puzzle-grid.png" class="grid1-2 w-25"/>
-                <img src="images/puzzle-grid.png" class="grid1-3 w-25"/>
+                <img src="images/puzzle-grid.png" class="puzzle-grid-drop7"/>
+                <img src="images/puzzle-grid.png" class="puzzle-grid-drop8"/>
+                <img src="images/puzzle-grid.png" class="puzzle-grid-drop9"/>
             </div>
    
         
-            <div class="col-md-12 text-center mb-5">
-                <img src="images/img1-1.png" id="img1-1-draggable" class="w-25"/>
-                <img src="images/img1-2.png" id="img1-2-draggable" class="w-25"/>
-                <img src="images/img1-3.png" id="img1-3-draggable" class="w-25"/>
+            <div class="col-md-12 text-center mt-2 ml-4">
+                <img src="images/img1-1.png" id="img1-1-draggable"/>
+                <img src="images/img1-2.png" id="img1-2-draggable"/>
+                <img src="images/img1-3.png" id="img1-3-draggable"/>
         
-                <img src="images/img3-1.png" id="img3-1-draggable" class="w-25"/>
-                <img src="images/img3-2.png" id="img3-2-draggable" class="w-25"/>
-                <img src="images/img3-3.png" id="img3-3-draggable" class="w-25"/> 
+                <img src="images/img3-1.png" id="img3-1-draggable"/>
+                <img src="images/img3-2.png" id="img3-2-draggable"/>
+                <img src="images/img3-3.png" id="img3-3-draggable"/> 
         
-                <img src="images/img2-1.png" id="img2-1-draggable" class="w-25"/>
-                <img src="images/img2-2.png" id="img2-2-draggable" class="w-25"/>
-                <img src="images/img2-3.png" id="img2-3-draggable" class="w-25"/>
+                <img src="images/img2-1.png" id="img2-1-draggable"/>
+                <img src="images/img2-2.png" id="img2-2-draggable"/>
+                <img src="images/img2-3.png" id="img2-3-draggable"/>
             </div>
+
         </div>
     </div>
 
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center py-3 text-light footer nav-color">© 2020 Copyright:
+                <a class="text-light" href="index.html">Jigsaw Puzzle</a>
+            </div>
+        </div>
+    </div>
     </body>
 </html>
